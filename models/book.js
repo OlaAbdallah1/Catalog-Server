@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
-const validator = require('validator')
-    const Book = mongoose.model('books', {
+ const Book = mongoose.model('books', {
         topic: {
             type: String, 
             required: true, 
