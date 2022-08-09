@@ -4,7 +4,7 @@ const Book = require('./models/book.js')
 const bookRouter = require('./routes/book')
 
 const app = express()
-const port = process.env.PORT || 3007
+const port = process.env.PORT || 3001
 
 
 app.use(express.json()) //to parse incoming json to object.
